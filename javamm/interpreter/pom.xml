@@ -11,11 +11,8 @@
 
     <artifactId>interpreter</artifactId>
 
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <name>Javamm interpreter</name>
+    <description>Default interpreter for javamm programming language</description>
 
     <dependencies>
         <dependency>

@@ -10,12 +10,11 @@
     </parent>
 
     <artifactId>release</artifactId>
+    <packaging>pom</packaging>
 
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <name>Release aggregator</name>
+    <description>Release aggregator for javamm project</description>
+
     <dependencies>
         <dependency>
             <groupId>academy.devonline</groupId>
