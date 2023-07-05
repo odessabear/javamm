@@ -143,4 +143,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <site>
+      <id>devonline.academy</id>
+      <url>scp://devonline.academy/javamm/maven-docs</url>
+    </site>
+  </distributionManagement>
 </project>
