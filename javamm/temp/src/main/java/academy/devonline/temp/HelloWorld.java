@@ -6,7 +6,7 @@
  * Vestibulum commodo. Ut rhoncus gravida arcu.
  */
 
-package academy.online.temp;
+package academy.devonline.temp;
 
 /**
  * @author devonline
