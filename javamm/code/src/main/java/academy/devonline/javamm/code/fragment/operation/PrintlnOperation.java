@@ -26,7 +26,7 @@ public final class PrintlnOperation extends AbstractOperation implements Operati
         this.text = requireNonNull(text);
     }
 
-    public String toString() {
+    public String getText() {
         return text;
     }
 }
