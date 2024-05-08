@@ -39,12 +39,13 @@
     <!--           http://checkstyle.sourceforge.net/config_header.html                     -->
     <!--                              empty config                                          -->
 
-    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ TreeWalker Config ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-    <!--                 http://checkstyle.sourceforge.net/checks.html                      -->
     <module name="LineLength">
         <property name="max" value="120"/>
         <property name="ignorePattern" value="^ *\* *[^ ]+$"/>
     </module>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ TreeWalker Config ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!--                 http://checkstyle.sourceforge.net/checks.html                      -->
     <module name="TreeWalker">
 
         <module name="SuppressWarningsHolder"/>
